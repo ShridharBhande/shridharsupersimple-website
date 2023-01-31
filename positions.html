@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Position Tutorial</title>
+  </head>
+  <body style="
+    height: 3000px;
+    padding-top: 30px;
+    padding-left: 80px;
+  ">
+    <div style=
+      "background-color: tomato; 
+      color: white;
+      height: 20px;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      ">
+      Header
+    </div>
+
+    <div style=
+    "background-color: green; 
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 20px;
+    width: 72px;
+    ">
+      Sidebar
+
+      <div style="
+      color: red;
+      position: absolute;
+      right:0;
+      top: 0;
+      ">
+        X
+      </div>
+    </div>
+
+    
+    <div style=
+    "
+    color: red;
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    top: 80px;
+    width: 72px;
+    ">
+      Absolute
+    </div>
+
+    <div style="background-color: lightblue; height: 200px; width: 200px;">Div 1</div>
+
+    <div style="
+      background-color: lightpink; 
+      height: 200px; 
+      width: 200px;
+      position: relative;
+      color: black;
+      ">
+      Div 2
+      <div style=
+      "
+      color: white;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      border-radius: 0.05px;
+      background-color: black;
+      font-size: 14px;
+      padding: 2px 2px 2px 2px;
+
+      ">
+      5:00
+      </div>
+
+    </div>
+
+    
+    <div style="
+      background-color: lightgray; 
+      height: 200px; 
+      width: 200px;
+      position: absolute;
+      color: black;
+      ">
+      Absolute Outer Div 
+
+      <div style="
+        color: white;
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+        /* border-radius: 0.05px; */
+        background-color: black;
+        font-size: 14px;
+        ">
+        5:00
+      </div>
+
+      </div>
+  </body>
+</html>
